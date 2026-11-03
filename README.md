@@ -15,7 +15,7 @@ Many anomaly detectors operate on individual measurements or fixed-dimensional r
 We study two types of temporal anomalies:
 
 - **Chatter:** the system switches between operating states unusually rapidly.
-- **Stuck:** the system stays in one operating state far longer than usual.
+- **Stuck:** the system stays in the same operating state far longer than usual.
 
 The underlying values are still sampled from the same state-dependent Gaussian distributions. As a result, the main distinguishing information is in the **sequence of transitions**, although aggregate statistics can retain some indirect signal, particularly for stuck anomalies.
 
